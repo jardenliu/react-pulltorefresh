@@ -1,0 +1,47 @@
+{
+  "name": "react-pulltorefresh",
+  "version": "0.0.1",
+  "description": "React component for web pull to refresh",
+  "main": "dist/react-pulltorefresh.js",
+  "scripts": {
+    "start": "parcel example/index.html --out-dir .dev",
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jardenliu/react-pulltorefresh.git"
+  },
+  "keywords": [
+    "react",
+    "pull-to-refresh",
+    "pulltorefresh",
+    "web",
+    "h5",
+    "reactjs",
+    "components",
+    "pull",
+    "refresh"
+  ],
+  "author": "jardenliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jardenliu/react-pulltorefresh/issues"
+  },
+  "homepage": "https://github.com/jardenliu/react-pulltorefresh#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "parcel": "^1.10.3",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "loadsh": "^0.0.3",
+    "prop-types": "^15.6.2",
+    "pulltorefreshjs": "^0.1.14"
+  }
+}
