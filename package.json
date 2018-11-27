@@ -2,9 +2,10 @@
   "name": "react-pulltorefresh",
   "version": "0.0.1",
   "description": "React component for web pull to refresh",
-  "main": "dist/react-pulltorefresh.js",
+  "main": "dist/rect-pulltorefresh.js",
   "scripts": {
     "start": "parcel example/index.html --out-dir .dev",
+    "build": "webpack --mode production",
     "test": "karma"
   },
   "repository": {
@@ -29,19 +30,22 @@
   },
   "homepage": "https://github.com/jardenliu/react-pulltorefresh#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "parcel": "^1.10.3",
     "parcel-bundler": "^1.10.3",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "stylus": "^0.54.5"
+    "stylus": "^0.54.5",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "loadsh": "^0.0.3",
     "prop-types": "^15.6.2",
-    "pulltorefreshjs": "^0.1.14"
+    "pulltorefreshjs": "^0.1.14",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
