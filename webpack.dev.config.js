@@ -26,9 +26,18 @@ module.exports = {
         }]
     },
 
+    devServer: {
+        contentBase: './example',
+        host: '0.0.0.0',
+        hot: true,
+        open: true,
+        inline: true
+    },
+
     plugins: [
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ]
 }

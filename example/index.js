@@ -4,7 +4,7 @@ import List from './components/list'
 import ReactPullToRefresh from '../src/index'
 import './app.styl'
 
-const defaultData = ['one', 'two', 'three']
+const defaultData = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
 
 
 class App extends React.Component {
@@ -13,7 +13,7 @@ class App extends React.Component {
         super(props)
         this.state = {
             data: [...defaultData],
-            ptrDisabled: true
+            ptrDisabled: false
         }
     }
 

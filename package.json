@@ -4,7 +4,7 @@
   "description": "React component for web pull to refresh",
   "main": "dist/rect-pulltorefresh.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.config.js --content-base example --inline --hot --mode development",
+    "start": "webpack-dev-server --config webpack.dev.config.js --mode development",
     "build": "webpack --mode production",
     "test": "karma"
   },
@@ -36,14 +36,15 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
-    "stylus": "^0.54.5",
-    "webpack": "^4.26.1",
     "style-loader": "^0.23.1",
-    "webpack-cli": "^3.1.2",
+    "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "better-scroll": "^1.13.2",
     "loadsh": "^0.0.3",
     "prop-types": "^15.6.2",
     "pulltorefreshjs": "^0.1.14",
